@@ -1,3 +1,4 @@
-gcc main1.c -o a
+all:
+        gcc main1.c -o a
         ./a
 
