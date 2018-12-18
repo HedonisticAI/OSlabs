@@ -8,7 +8,7 @@
 #include <sys/shm.h>
 #include <sys/types.h>
 
-#define FILE "Producer_main.c"
+#define FILE "out_main.c"
 
 int main()
 {
