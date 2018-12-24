@@ -1,0 +1,5 @@
+all: In Out
+In:
+	gcc in_main.c -o Consumer -Wall
+Out:
+	gcc out_main.c -o Producer -Wall
