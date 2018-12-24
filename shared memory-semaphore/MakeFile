@@ -1,0 +1,6 @@
+all: p_main.c c_main.c
+
+p_main.c:
+	gcc p_main.c -o Producer -Wall
+c_main.c:
+	gcc c_main.c -o Consumer -Wall
