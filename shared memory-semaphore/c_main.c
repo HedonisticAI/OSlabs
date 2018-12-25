@@ -8,7 +8,7 @@
 #include <sys/shm.h>
 #include <sys/types.h>
 #include <sys/sem.h>
-#define FILE "Makefile"
+#define FILE "makefile"
 
 struct sembuf sem_lock = {0,-1,0}, sem_open = {0,1,0};
 
