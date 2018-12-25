@@ -17,7 +17,7 @@ int main()
 {
         char * addr;
         key_t semkey = ftok("/tmp", 'a');
-        int shmid = (shmget(2002, 32, IPC_CREAT | 0666));
+        int shmid = (shmget(2066, 32, IPC_CREAT | 0666));
         int semid = (semget(semkey, 1, IPC_CREAT | 0666));
         if(semid == -1){
                 printf("Sem create err\n");
