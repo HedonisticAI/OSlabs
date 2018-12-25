@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<fcntl.h>
 #include <unistd.h>
-main( int argc,char *argv[] )
+int main( int argc,char *argv[] )
 {
 int i,fd1,fd2;
 char *file1,*file2,buf[2];
