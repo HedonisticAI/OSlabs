@@ -3,7 +3,6 @@
 #include<stdio.h>
 #include<fcntl.h>
 #include <unistd.h>
-#include<io.h>
 main( int argc,char *argv[] )
 {
 int i,fd1,fd2;
