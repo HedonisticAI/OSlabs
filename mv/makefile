@@ -1,3 +1,3 @@
 all:
-	gcc main.c -o a-Wall
+	gcc main.c -o a -Wall
 	./a
