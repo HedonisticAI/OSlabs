@@ -42,13 +42,13 @@ void* producer(void *args) {
         }
 		
 		pthread_rwlock_wrlock (&lock);
-        addr[0] = STORAGE_MAX;
+        addr[0] = 20;
 		pthread_rwlock_unlock (&lock);
 
         while(1){
                 pthread_rwlock_wrlock (&lock);
                         change_storage(addr, 1);
-                if(addr[0] > STORAGE_MIN){
+                if(addr[0] > 5){
                         pthread_cond_signal(&cv);
                 }
                 pthread_rwlock_unlock (&lock);
