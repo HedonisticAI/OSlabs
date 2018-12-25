@@ -16,7 +16,7 @@ int main()
 {
         char * addr;
         key_t semkey = ftok("/tmp", 'a');
-        int X=1, shmid = (shmget(2002, 32, 0666));
+        int X=1, shmid = (shmget(2066, 32, 0666));
         int semid = (semget(semkey, 1, 0666));
         if(semid == -1){
                 printf("Sem err\n");
