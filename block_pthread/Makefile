@@ -1,3 +1,3 @@
 all:
-  gcc main.c -o result -Wall -lpthread
-  ./result
+  gcc main.c -o r -Wall -lpthread
+  ./r
